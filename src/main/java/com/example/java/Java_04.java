@@ -7,6 +7,7 @@ public class Java_04 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter an alphabet :");
         char alphabet = scanner.next().charAt(0);
+
         switch (alphabet){
             case 'a','e','i','o','u' :
                 System.out.println("It's a vowel");
